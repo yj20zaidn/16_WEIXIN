@@ -1,0 +1,64 @@
+<!--pages/p02/p02.wxml-->
+<text>小程序组件：按钮/超链接/输入框/图片/图标</text>
+
+<view>按钮</view>
+<button>按钮</button>
+
+<button size="default">默认大小按钮</button>
+<button size="mini">迷你大小按钮</button>
+
+<button type="primary">绿色按钮</button>
+<button type="default">白色按钮</button>
+<button type="warn">红色按钮</button>
+
+<button plain="true">镂空按钮</button>
+
+<button disabled="true">禁用的按钮</button>
+
+<button loading="true">加载中按钮</button>
+
+<view>超链接</view>
+<navigator url="../p01/p01">跳转到P01</navigator>
+<navigator url="/pages/p01/p01">跳转到P01</navigator>
+
+<navigator url="http://www.baidu.com">跳转到百度</navigator>
+<navigator url="http://www.tmooc.cn/">跳转到达内</navigator>
+
+<view>输入框</view>
+<input></input>
+<input placeholder="这是第二个输入框"></input>
+<input style="border: 1rpx solid #aaa; margin:10rpx;"></input>
+
+<input password="true" placeholder="密码输入框"></input>
+
+<input type="digit" placeholder="弹出带小数点的数字键盘"></input>
+
+<input focus="true"></input>
+
+
+<view>图片</view>
+<image src="../../assets/images/1.jpg"></image>
+<image src="../../assets/images/home.png"></image>
+<image src="../../assets/images/home.png" style="width:100rpx;"></image>
+<image src="/assets/images/home.png" style="width:100rpx;"></image>
+
+
+<view>图标</view>
+<icon type="success"></icon>
+<icon type="success_no_circle"></icon>
+<icon type="info"></icon>
+<icon type="warn"></icon>
+<icon type="waiting"></icon>
+<icon type="cancel"></icon>
+<icon type="download"></icon>
+<icon type="search"></icon>
+<icon type="clear"></icon>
+
+<view>图标的颜色</view>
+<icon type="success" color="red"></icon>
+<view>图标的大小</view>
+<icon type="success" size="10"></icon>
+<icon type="success" size="20"></icon>
+<icon type="success" size="30"></icon>
+<icon type="success" size="40"></icon>
+<icon type="success" size="50"></icon>

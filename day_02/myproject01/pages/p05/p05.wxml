@@ -1,0 +1,15 @@
+<!--pages/p05/p05.wxml-->
+<text>数据绑定——事件绑定</text>
+
+<view bindtap="f4" bindlongpress="f5">
+
+  <!-- 小程序中的事件处理函数不能加() -->
+  <!-- <button bindtap="f1()">按钮</button> -->
+  <!-- <button bindtap="f1"  bindlongtap="f2">按钮</button> -->
+  <button bindtap="f1"  bindlongpress="f3">按钮1</button>
+
+  <button bind:tap="f1"  bind:longpress="f3">按钮2</button>
+
+  <button catchtap="f1"  catchlongpress="f3">按钮3</button>
+
+</view>

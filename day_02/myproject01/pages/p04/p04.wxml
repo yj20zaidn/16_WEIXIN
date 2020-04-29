@@ -1,0 +1,54 @@
+<!--pages/p04/p04.wxml-->
+<text>数据绑定——内容绑定</text>
+
+<view>员工姓名：{{ename}}</view>
+<view>{{'员工姓名：' + ename}}</view>
+<view>员工年龄：{{age}}</view>
+<view>是否已婚：{{isMarried}}</view>
+
+<view>后年年龄：{{age+2}}</view>
+<view>是否成年：{{age>=18}}</view>
+<view>是否在工作年龄范围：{{age>=18 && age<60}}</view>
+
+<view>婚姻状况：{{isMarried ? '已婚' : '未婚'}}</view>
+
+<!-- 调用对象的成员 -->
+<view>员工姓名：{{ename.toUpperCase()}}</view>
+<view>姓名前三个字母：{{ename.substring(0,3)}}</view>
+<view>姓名长度：{{ename.length}}</view>
+
+<!-- 调用全局函数 -->
+<view>年龄解析为整数：{{parseInt(age)}}</view>
+<view>年龄解析为整数：{{Number(age)}}</view>
+
+<!-- 创建对象 -->
+<!-- <view>当前时间：{{new Object()}}</view> -->
+
+<!-- 输出对象，结果为[object Object] -->
+<view>老板信息：{{boss}}</view>
+
+<!-- 
+  英语中：-ify后缀表示“使变为..”
+  stoneify 、  sheepify、   stringify
+ -->
+<!-- 对象转换为JSON格式的字符串：JSON.stringify() -->
+<view>老板信息：{{JSON.stringify(boss)}}</view>
+
+
+<text>数据绑定——属性绑定</text>
+<image src="/assets/images/1.jpg"></image>
+<!-- <image src="avatar"></image> -->
+<image src="{{avatar}}"></image>
+
+<image src="/assets/images/{{photo}}"></image>
+<image src="{{'/assets/images/'+photo}}"></image>
+
+
+<text>数据绑定——样式绑定</text>
+<view style="color:red;">绑定了style样式的元素</view>
+<view style="{{myStyle02}}">绑定了style样式的元素</view>
+<view style="color:{{myStyle03}};">绑定了style样式的元素</view>
+
+<view class="danger">绑定了class样式的元素</view>
+<view class="success">绑定了class样式的元素</view>
+<view class="{{myClass04}}">绑定了class样式的元素</view>

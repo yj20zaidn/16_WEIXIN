@@ -1,0 +1,13 @@
+/* pages/p04/p04.wxss */
+.danger {
+  color: #833;
+  background: #faa;
+  padding: 15rpx;
+  margin: 15rpx;
+}
+.success {
+  color: #383;
+  background: #afa;
+  padding: 15rpx;
+  margin: 15rpx;
+}

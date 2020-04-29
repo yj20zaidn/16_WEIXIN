@@ -1,0 +1,32 @@
+<!--pages/p03/p03.wxml-->
+<text>小程序组件：音频/视频/地图/轮播</text>
+
+<view>音频</view>
+<audio src="../../assets/audio/1.mp3" controls="true"></audio>
+<audio src="/assets/audio/1.mp3" controls="true"></audio>
+
+<view>视频</view>
+<!-- <video src="/assets/video/400.mp4"></video> -->
+<!-- <video src="/assets/video/100.mp4" autoplay="true"></video> -->
+<!-- <video src="/assets/video/200.mp4" autoplay="true" loop="true"></video> -->
+<!-- <video src="/assets/video/500.mp4" autoplay="true"></video> -->
+
+<view>地图</view>
+<!-- <map></map> -->
+<map latitude="39.908732" longitude="116.397464" scale="16" markers="{{myMarkers}}"></map>
+
+<view>轮播广告</view>
+<swiper indicator-dots="true" autoplay="true" interval="2000" circular="true">
+  <swiper-item>
+    <image src="/assets/images/1.jpg"></image>
+  </swiper-item>
+  <swiper-item>
+    <image src="/assets/images/2.jpg"></image>
+  </swiper-item>
+  <swiper-item>
+    <image src="/assets/images/3.jpg"></image>
+  </swiper-item>
+  <swiper-item>
+    <image src="/assets/images/4.jpg"></image>
+  </swiper-item>
+</swiper>

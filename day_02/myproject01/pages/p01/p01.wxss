@@ -1,0 +1,11 @@
+/* pages/p01/p01.wxss */
+text {
+  background: #ff0;
+}
+
+.box1 {
+  background: #aaf;
+  margin: 10rpx;
+  padding: 10rpx;
+  width: 375rpx;
+}

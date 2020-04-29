@@ -1,0 +1,17 @@
+{
+  "pages":[
+    "pages/p05/p05",
+    "pages/p04/p04",
+    "pages/p03/p03",
+    "pages/p02/p02",
+    "pages/p01/p01"
+  ],
+  "window":{
+    "backgroundTextStyle":"light",
+    "navigationBarBackgroundColor": "#0aa1ed",
+    "navigationBarTitleText": "学子商城",
+    "navigationBarTextStyle":"white"
+  },
+  "style": "v2",
+  "sitemapLocation": "sitemap.json"
+}

@@ -1,0 +1,19 @@
+<!--pages/p01/p01.wxml-->
+<text>小程序组件：最简单的行内元素和块级元素</text>
+<hr />
+<br />
+<text>pages/p01/p01.wxml</text>
+
+<div>
+这里是一个DIV
+</div>
+<xyz>
+这里是一个XYZ
+</xyz>
+
+<view class="box1">
+这里是VIEW1
+</view>
+<view style="background:#afa;">
+这里是VIEW2
+</view>
